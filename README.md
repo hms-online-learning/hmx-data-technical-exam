@@ -1,0 +1,49 @@
+Welcome to the HMX Data Science & Analytics takehome exam. Please submit answers in the form of a Jupyter notebook, in any scripting language of your choice. Please email zipped files to matt_bunch@hms.harvard.edu within five days of receiving the exam.
+
+## Scenario
+
+Imagine our team is tasked to understand learner behavior within an online course. The broader team would like to better understand learner behavior to inform what corriculum design changes should be made and predictability of learner success.
+
+The data in `data.csv` is a sample of learner question submission from within our learning managment system. All data is tied to registered and enrolled users.
+
+The objective is to identify if content changes should be made and/or to predict a learners chance of success as early as possible.
+
+**Note: Each row in `data.csv` represents a learners question submission.**
+
+## Data
+
+| Column Name     | Description       |
+| --------------- | ----------------- |
+| course_id | the course id
+| max_grade | the maximum grade the learner could earn
+| created | the datetime of when the original record was created
+| grade | the learners earned points
+| learner_id | the learners unique identifier
+| modified | the datetime in which the record was modified
+| state | JSON formatted string containing:
+|    - last_submission_time | of the attempts taken, the last time
+|    - attempts | number of question attempts taken 
+|    - score|
+|        |- raw_possible | the points possible for a learner to earn
+|        |- raw_earned | the points a learner earned
+|   - done | Bool
+| - student_answers|
+|        |- section_id, the section_id itself is in the form of a hash
+|    - seed|
+
+
+## Questions
+
+1. What percent of customers returned after the first visit?
+
+2. What are the top three best-performing stories in each section, by pageviews?
+
+3. Based on this data, would you choose to promote a Tech story or a Markets story on social media? Why?
+
+4. Create a visualization exploring the relationship between any of the content characteristics (such as section, author, keywords etc...) and returning visitors. This is an open-ended task. Briefly describe the visualization and the insight.
+
+5. Create a simple model predicting the likelihood of a first-time visitor returning.
+
+6. What additional data would you add to improve the model? (Answer in 3-5 sentences)
+
+
