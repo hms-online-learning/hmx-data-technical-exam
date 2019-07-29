@@ -12,8 +12,8 @@ The objective is to identify if content changes should be made and/or to predict
 
 ## Data
 
-| Column Name     | Description       |
-| --------------- | ----------------- |
+| Column Name     | Description       | Desc Cont         |
+| --------------- | ----------------- | ----------------- |
 | course_id | the course id
 | max_grade | the maximum grade the learner could earn
 | created | the datetime of when the original record was created
@@ -27,22 +27,22 @@ The objective is to identify if content changes should be made and/or to predict
 |        |- raw_possible | the points possible for a learner to earn
 |        |- raw_earned | the points a learner earned
 |   - done | Bool
-| - student_answers|
-|        |- section_id, the section_id itself is in the form of a hash
-|    - seed|
+|   - student_answers|
+|        |- section_id | the section_id itself is in the form of a hash
+|    - seed| 
 
 
 ## Questions
 
-1. What percent of customers returned after the first visit?
+1. What percent of each question did learners attempt twice?
 
-2. What are the top three best-performing stories in each section, by pageviews?
+2. Which questions were most frequently answered incorrect?
 
-3. Based on this data, would you choose to promote a Tech story or a Markets story on social media? Why?
+3. Based on this data, would you recommend ?
 
-4. Create a visualization exploring the relationship between any of the content characteristics (such as section, author, keywords etc...) and returning visitors. This is an open-ended task. Briefly describe the visualization and the insight.
+4. Create a visualization exploring the relationship between any of the content characteristics (such as learners, attempts, time etc...). This is an open-ended task. Briefly describe the visualization and the insight.
 
-5. Create a simple model predicting the likelihood of a first-time visitor returning.
+5. Create a simple model predicting the likelihood of a learner passing the course. (A passing grade is 80% or above)
 
 6. What additional data would you add to improve the model? (Answer in 3-5 sentences)
 
