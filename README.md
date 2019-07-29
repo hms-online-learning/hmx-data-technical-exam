@@ -26,7 +26,6 @@ The objective is to understand learner behavior and to predict learner completio
 |    - score|
 |        |- raw_possible | the points possible for a learner to earn
 |        |- raw_earned | the points a learner earned
-|   - done | Bool
 |   - student_answers|
 |        |- section_id | the section_id itself is in the form of a hash
 |    - seed| 
