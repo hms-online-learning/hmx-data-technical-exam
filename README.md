@@ -38,12 +38,8 @@ The objective is to understand learner behavior and to predict learner completio
 
 2. Which questions were most frequently answered incorrect?
 
-3. Based on this data, would you recommend ?
+3. Create a visualization exploring the relationship between any of the content characteristics (such as learners, attempts, time etc...). This is an open-ended task. Briefly describe the visualization and the insight.
 
-4. Create a visualization exploring the relationship between any of the content characteristics (such as learners, attempts, time etc...). This is an open-ended task. Briefly describe the visualization and the insight.
+4. Create a simple model predicting the likelihood of a learner passing the course. (A passing grade is 80% or above)
 
-5. Create a simple model predicting the likelihood of a learner passing the course. (A passing grade is 80% or above)
-
-6. What additional data would you add to improve the model? (Answer in 3-5 sentences)
-
-
+5. What additional data would you add to improve the model? (Answer in 3-5 sentences)
