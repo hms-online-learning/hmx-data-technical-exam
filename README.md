@@ -2,9 +2,9 @@ Welcome to the HMX Data Science & Analytics takehome exam. Please submit answers
 
 ## Scenario
 
-Imagine our team is tasked to understand learner behavior within an online course. The broader team would like to better understand learner behavior to inform what corriculum design changes should be made and predictability of learner success.
+Imagine our team is tasked to understand learner behavior within an online course. The broader team would like to better understand learner behavior to inform what curriculum design changes should be made and predictability of learner success.
 
-The data in `data.csv` is a sample of learner question submission from within our learning managment system. All data is tied to registered and enrolled users.
+The data in `data.csv` is a sample of learner question submission from within our learning management system. All data is tied to registered and enrolled users.
 
 The objective is to identify if content changes should be made and/or to predict a learners chance of success as early as possible.
 
