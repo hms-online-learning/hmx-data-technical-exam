@@ -12,8 +12,8 @@ The objective is to identify if content changes should be made and/or to predict
 
 ## Data
 
-| Column Name     | Description       | Desc Cont         |
-| --------------- | ----------------- | ----------------- |
+| Column Name     | Description       | Desc Cont      |
+| --------------- | ----------------- | -------------- |
 | course_id | the course id
 | max_grade | the maximum grade the learner could earn
 | created | the datetime of when the original record was created
