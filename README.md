@@ -28,8 +28,6 @@ The objective is to understand learner behavior and to predict learner completio
 |        |- raw_earned | the points a learner earned
 |   - student_answers|
 |        |- section_id | the section_id itself is in the form of a hash
-|    - seed| 
-
 
 ## Questions
 
