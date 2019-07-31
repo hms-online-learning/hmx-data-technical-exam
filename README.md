@@ -27,7 +27,7 @@ The objective is to understand learner behavior and to predict learner completio
 |        |- raw_possible | the points possible for a learner to earn
 |        |- raw_earned | the points a learner earned
 |   - student_answers|
-|        |- section_id | the section_id itself is in the form of a hash
+|        |- question_id | the question_id itself (the key) is in the form of a hash
 
 ## Questions
 
